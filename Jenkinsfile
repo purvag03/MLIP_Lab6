@@ -19,6 +19,7 @@ pipeline {
                 # sudo /PATH/TO/CONDA init
 
                 # TODO Complete the command to run pytest
+                sudo /opt/miniconda3/bin/conda run -n mlip pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
 
                 echo 'pytest not runned'
